@@ -94,5 +94,7 @@ image compression web app
 
 - https://github.com/styfle/awesome-online-ide
 
+- https://github.com/hql287/awesome-free-services
+
 
 
