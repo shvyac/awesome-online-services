@@ -1,5 +1,7 @@
 # awesome-online-services
 
+[日本語版はこちら / Japanese](README.ja.md)
+
 Useful online developer services — browser IDEs, language playgrounds, converters, regex, image tools, TTS, and more.
 
 ## Browser IDEs & sandboxes
