@@ -20,22 +20,23 @@
 ## ブラウザ IDE・サンドボックス
 
 ### Replit
-共同編集可能なブラウザベースの IDE とアプリビルダー。ローカル環境のセットアップなしで多くの言語を扱える。
+共同編集可能なブラウザベースの IDE で、現在は AI アプリビルダー（Replit Agent）としても展開。ローカル環境のセットアップなしで多くの言語を扱える。無料の Starter プランあり。
 
 - https://replit.com/
 
 ### StackBlitz
-ブラウザ上の即時フルスタック Web 環境（WebContainers）。フロントエンド／Node の試作に便利。
+ブラウザ上の即時フルスタック Web 環境（WebContainers）。フロントエンド／Node の試作に便利。同じチームが AI アプリビルダー Bolt.new も運営。
 
 - https://stackblitz.com/
+- https://bolt.new/
 
 ### CodeSandbox
-ライブプレビュー、テンプレート、共同編集付きのオンラインコードサンドボックス — React や Web アプリに強い。
+ライブプレビュー、テンプレート、共同編集付きのオンラインコードサンドボックス — React や Web アプリに強い。現在は Together AI 傘下で、AI エージェント向けサンドボックスを動かす CodeSandbox SDK も提供。
 
 - https://codesandbox.io/
 
 ### CodePen
-HTML、CSS、JavaScript のフロントエンド向けプレイグラウンド。デモや UI 実験向き。
+HTML、CSS、JavaScript のフロントエンド向けプレイグラウンド。デモや UI 実験向き。CodePen 2.0 では複数ファイル対応の新エディタ、組み込みコンパイラ、デプロイ機能が追加された。
 
 - https://codepen.io/
 
@@ -78,7 +79,7 @@ HTML、CSS、JavaScript のフロントエンド向けプレイグラウンド�
 - https://godbolt.org/
 
 ### 3v4l
-オンライン PHP エディタ — 250 以上の PHP バージョンでコードを試せる。
+オンライン PHP エディタ — 500 以上の PHP バージョンでコードを試せる。
 
 - https://3v4l.org/
 
@@ -87,15 +88,20 @@ Colaboratory — ブラウザ上の Python ノートブック（ML／データ�
 
 - https://colab.research.google.com/
 
+### JupyterLite
+WebAssembly で動く、ブラウザ内で完結する Jupyter — サーバーもサインインも不要（Project Jupyter）。
+
+- https://jupyter.org/try-jupyter/lab/
+
 ## コンバータ・データツール
 
 ### JSON to C#
-Json2CSharp Toolkit — JSON サンプルから C# クラスをオンラインで生成。
+Json2CSharp Toolkit — JSON サンプルから C# クラスをオンラインで生成（Java、Python、Dart にも対応）。
 
 - https://json2csharp.com/
 
 ### quicktype
-JSON から型とシリアライザを生成（TypeScript、Go、Rust、Python、C# など）。
+JSON から型とシリアライザを生成（TypeScript、Go、Rust、Python、C# など）。AI エージェント向けの MCP サーバーも提供。
 
 - https://quicktype.io/
 
@@ -108,6 +114,12 @@ JSON から型とシリアライザを生成（TypeScript、Go、Rust、Python�
 「サイバー・スイスアーミーナイフ」— エンコード／デコード、ハッシュ、圧縮、パース、操作の連鎖をクライアント側で実行。
 
 - https://gchq.github.io/CyberChef/
+
+### IT Tools
+開発者向けの便利ツールを集めたオープンソースのコレクション（UUID／ハッシュ生成、各種変換、エンコーダ、ネットワーク計算など）。Docker でセルフホストも可能。
+
+- https://it-tools.tech/
+- https://github.com/CorentinTh/it-tools
 
 ### jwt.io
 JSON Web Token をデコードして検査（ヘッダ／ペイロード／署名）。
@@ -134,10 +146,10 @@ JSON Web Token をデコードして検査（ヘッダ／ペイロード／署�
 ## 数式・ダイアグラム
 
 ### HostMath
-オンライン LaTeX 数式エディタ／ブラウザベースの数式エディタ。
+オンライン LaTeX 数式エディタ／ブラウザベースの数式エディタ（利用可能だが更新は止まっている）。
 
 - https://www.hostmath.com/
-- https://www.hostmath.com/Demo.aspx
+- https://www.hostmath.com/Demo
 
 ### Mermaid Live Editor
 Mermaid ダイアグラム（フローチャート、シーケンス、ER など）をブラウザで編集・プレビュー。
@@ -149,10 +161,20 @@ Mermaid ダイアグラム（フローチャート、シーケンス、ER など
 
 - https://excalidraw.com/
 
+### draw.io (diagrams.net)
+無料のダイアグラムエディタ — フローチャート、UML、ER、ネットワーク図、BPMN など。Visio（.vsdx）、Gliffy、Lucidchart のファイルも読み込める。
+
+- https://app.diagrams.net/
+
 ### Carbon
 ドキュメントや SNS 向けに、ソースコードのきれいなスクリーンショットを作成。
 
 - https://carbon.now.sh/
+
+### ray.so
+Raycast 製のコードスクリーンショット生成ツール — テーマや背景を選び、PNG／SVG で書き出し。
+
+- https://ray.so/
 
 ## 画像ツール
 
@@ -160,6 +182,11 @@ Mermaid ダイアグラム（フローチャート、シーケンス、ER など
 画像圧縮 Web アプリ — ブラウザ内でローカルにリサイズ／エンコード（プライバシーに配慮）。
 
 - https://squoosh.app/
+
+### SVGOMG
+SVGO の Web GUI — ブラウザ上で SVG ファイルを最小化・整理。
+
+- https://jakearchibald.github.io/svgomg/
 
 ### Photopea
 ブラウザで動く高機能オンライン写真エディタ（PSD 対応）。

@@ -7,22 +7,23 @@ Useful online developer services — browser IDEs, language playgrounds, convert
 ## Browser IDEs & sandboxes
 
 ### Replit
-Collaborative browser-based IDE and app builder. Code in many languages without local setup.
+Collaborative browser-based IDE that has evolved into an AI app builder (Replit Agent). Code in many languages without local setup; free Starter plan available.
 
 - https://replit.com/
 
 ### StackBlitz
-Instant full-stack web environments in the browser (WebContainers). Great for frontend/Node prototypes.
+Instant full-stack web environments in the browser (WebContainers). Great for frontend/Node prototypes. The same team also runs the AI app builder Bolt.new.
 
 - https://stackblitz.com/
+- https://bolt.new/
 
 ### CodeSandbox
-Online code sandbox with live preview, templates, and collaboration — strong for React and web apps.
+Online code sandbox with live preview, templates, and collaboration — strong for React and web apps. Now part of Together AI and also offers the CodeSandbox SDK for running AI-agent sandboxes.
 
 - https://codesandbox.io/
 
 ### CodePen
-HTML, CSS, and JavaScript front-end playground for demos and UI experiments.
+HTML, CSS, and JavaScript front-end playground for demos and UI experiments. CodePen 2.0 adds a new editor with multiple files, a built-in compiler, and deployment.
 
 - https://codepen.io/
 
@@ -65,7 +66,7 @@ Explore compiler output (asm, IR, optimizations) across many languages and compi
 - https://godbolt.org/
 
 ### 3v4l
-Online PHP editor — test code across 250+ PHP versions.
+Online PHP editor — test code across 500+ PHP versions.
 
 - https://3v4l.org/
 
@@ -74,15 +75,20 @@ Colaboratory — Python notebooks in the browser (great for ML / data work).
 
 - https://colab.research.google.com/
 
+### JupyterLite
+WebAssembly-powered Jupyter that runs entirely in the browser — no server or sign-in needed (Project Jupyter).
+
+- https://jupyter.org/try-jupyter/lab/
+
 ## Converters & data tools
 
 ### JSON to C#
-Json2CSharp Toolkit — convert JSON samples to C# classes online.
+Json2CSharp Toolkit — convert JSON samples to C# classes online (also Java, Python, Dart).
 
 - https://json2csharp.com/
 
 ### quicktype
-Generate types and serializers from JSON (TypeScript, Go, Rust, Python, C#, and more).
+Generate types and serializers from JSON (TypeScript, Go, Rust, Python, C#, and more). Also offers an MCP server for AI agents.
 
 - https://quicktype.io/
 
@@ -95,6 +101,12 @@ Code transformers — JSON → TypeScript, SVG → JSX, CSS → Tailwind, and mo
 “Cyber Swiss Army Knife” — encode/decode, hash, compress, parse, and chain operations client-side.
 
 - https://gchq.github.io/CyberChef/
+
+### IT Tools
+Open-source collection of handy developer utilities (UUID/hash generators, converters, encoders, network calculators, and more); self-hostable via Docker.
+
+- https://it-tools.tech/
+- https://github.com/CorentinTh/it-tools
 
 ### jwt.io
 Decode and inspect JSON Web Tokens (header / payload / signature).
@@ -121,10 +133,10 @@ Learn, build, and test RegEx with live highlighting and community patterns.
 ## Math & diagrams
 
 ### HostMath
-Online LaTeX formula editor and browser-based math equation editor.
+Online LaTeX formula editor and browser-based math equation editor (works, but no longer actively updated).
 
 - https://www.hostmath.com/
-- https://www.hostmath.com/Demo.aspx
+- https://www.hostmath.com/Demo
 
 ### Mermaid Live Editor
 Edit and preview Mermaid diagrams (flowcharts, sequence, ER, etc.) in the browser.
@@ -136,10 +148,20 @@ Hand-drawn style whiteboard for diagrams and sketches — shareable links.
 
 - https://excalidraw.com/
 
+### draw.io (diagrams.net)
+Free diagram editor — flowcharts, UML, ER, network, and BPMN; imports Visio (.vsdx), Gliffy, and Lucidchart files.
+
+- https://app.diagrams.net/
+
 ### Carbon
 Create pretty screenshots of source code for docs and social posts.
 
 - https://carbon.now.sh/
+
+### ray.so
+Code screenshot generator by Raycast — themes, backgrounds, and export as PNG/SVG.
+
+- https://ray.so/
 
 ## Image tools
 
@@ -147,6 +169,11 @@ Create pretty screenshots of source code for docs and social posts.
 Image compression web app — resize/encode locally in the browser (privacy-friendly).
 
 - https://squoosh.app/
+
+### SVGOMG
+Web GUI for SVGO — minify and clean up SVG files in the browser.
+
+- https://jakearchibald.github.io/svgomg/
 
 ### Photopea
 Full-featured online photo editor (PSD-friendly) that runs in the browser.
