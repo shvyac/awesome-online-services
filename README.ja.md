@@ -4,6 +4,8 @@
 
 ブラウザ IDE、言語プレイグラウンド、コンバータ、正規表現、画像ツール、TTS など、開発者向けの便利なオンラインサービス集。
 
+⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
+
 ## 目次
 
 - [ブラウザ IDE・サンドボックス](#ブラウザ-ideサンドボックス)
@@ -41,9 +43,10 @@ HTML、CSS、JavaScript のフロントエンド向けプレイグラウンド�
 - https://codepen.io/
 
 ### JS Bin
-ライブな HTML/CSS/JS 出力付きの共同 JavaScript デバッグ環境。
+ライブな HTML/CSS/JS 出力付きの共同 JavaScript デバッグ環境。オープンソースだがメンテナンスは最小限（最終コードプッシュは 2025 年半ば）で、ホスト版サイトは一時的につながらないことがある。
 
 - https://jsbin.com/?html,output
+- https://github.com/jsbin/jsbin ![GitHub stars](https://img.shields.io/github/stars/jsbin/jsbin?style=flat&label=%E2%AD%90)
 
 ## 言語プレイグラウンド
 
@@ -51,12 +54,13 @@ HTML、CSS、JavaScript のフロントエンド向けプレイグラウンド�
 .NET 言語プレイグラウンド — C# / IL / JIT / 逆コンパイルを並べて確認できる。
 
 - https://sharplab.io/
-- https://github.com/ashmind/SharpLab
+- https://github.com/ashmind/SharpLab ![GitHub stars](https://img.shields.io/github/stars/ashmind/SharpLab?style=flat&label=%E2%AD%90)
 
 ### Rust Playground
 公式の Rust プレイグラウンド — ブラウザで Rust をコンパイル・実行。
 
 - https://play.rust-lang.org/
+- https://github.com/rust-lang/rust-playground ![GitHub stars](https://img.shields.io/github/stars/rust-lang/rust-playground?style=flat&label=%E2%AD%90)
 
 ### Go Playground
 公式の Go プレイグラウンド（正規 URL は現在 go.dev 上）。
@@ -77,6 +81,7 @@ HTML、CSS、JavaScript のフロントエンド向けプレイグラウンド�
 多数の言語・コンパイラにわたるコンパイラ出力（asm、IR、最適化）を探索できる。
 
 - https://godbolt.org/
+- https://github.com/compiler-explorer/compiler-explorer ![GitHub stars](https://img.shields.io/github/stars/compiler-explorer/compiler-explorer?style=flat&label=%E2%AD%90)
 
 ### 3v4l
 オンライン PHP エディタ — 500 以上の PHP バージョンでコードを試せる。
@@ -92,6 +97,7 @@ Colaboratory — ブラウザ上の Python ノートブック（ML／データ�
 WebAssembly で動く、ブラウザ内で完結する Jupyter — サーバーもサインインも不要（Project Jupyter）。
 
 - https://jupyter.org/try-jupyter/lab/
+- https://github.com/jupyterlite/jupyterlite ![GitHub stars](https://img.shields.io/github/stars/jupyterlite/jupyterlite?style=flat&label=%E2%AD%90)
 
 ## コンバータ・データツール
 
@@ -104,25 +110,28 @@ Json2CSharp Toolkit — JSON サンプルから C# クラスをオンライン�
 JSON から型とシリアライザを生成（TypeScript、Go、Rust、Python、C# など）。AI エージェント向けの MCP サーバーも提供。
 
 - https://quicktype.io/
+- https://github.com/glideapps/quicktype ![GitHub stars](https://img.shields.io/github/stars/glideapps/quicktype?style=flat&label=%E2%AD%90)
 
 ### transform.tools
 コード変換ツール — JSON → TypeScript、SVG → JSX、CSS → Tailwind など。
 
 - https://transform.tools/
+- https://github.com/ritz078/transform ![GitHub stars](https://img.shields.io/github/stars/ritz078/transform?style=flat&label=%E2%AD%90)
 
 ### CyberChef
 「サイバー・スイスアーミーナイフ」— エンコード／デコード、ハッシュ、圧縮、パース、操作の連鎖をクライアント側で実行。
 
 - https://gchq.github.io/CyberChef/
+- https://github.com/gchq/CyberChef ![GitHub stars](https://img.shields.io/github/stars/gchq/CyberChef?style=flat&label=%E2%AD%90)
 
 ### IT Tools
 開発者向けの便利ツールを集めたオープンソースのコレクション（UUID／ハッシュ生成、各種変換、エンコーダ、ネットワーク計算など）。Docker でセルフホストも可能。
 
 - https://it-tools.tech/
-- https://github.com/CorentinTh/it-tools
+- https://github.com/CorentinTh/it-tools ![GitHub stars](https://img.shields.io/github/stars/CorentinTh/it-tools?style=flat&label=%E2%AD%90)
 
 ### jwt.io
-JSON Web Token をデコードして検査（ヘッダ／ペイロード／署名）。
+JSON Web Token をデコードして検査（ヘッダ／ペイロード／署名）。Auth0（Okta）が運営。
 
 - https://jwt.io/
 
@@ -130,11 +139,23 @@ JSON Web Token をデコードして検査（ヘッダ／ペイロード／署�
 ブラウザ上のオープンソース API クライアント — REST、GraphQL、WebSocket など（Postman の代替）。
 
 - https://hoppscotch.io/
+- https://github.com/hoppscotch/hoppscotch ![GitHub stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=flat&label=%E2%AD%90)
+
+### JSON Crack
+JSON、YAML、XML、CSV をブラウザ上でインタラクティブなグラフとして可視化（オープンソース。有料機能は ToDiagram に移行）。
+
+- https://jsoncrack.com/
+- https://github.com/AykutSarac/jsoncrack.com ![GitHub stars](https://img.shields.io/github/stars/AykutSarac/jsoncrack.com?style=flat&label=%E2%AD%90)
+
+### crontab.guru
+cron のスケジュール式を手軽に編集し、意味を英語で解説してくれるエディタ（Cronitor 提供）。
+
+- https://crontab.guru/
 
 ## 正規表現
 
 ### regex101
-正規表現の作成、テスト、デバッグ。QUICK REFERENCE が便利。
+正規表現の作成、テスト、デバッグ。QUICK REFERENCE が便利。無料で使えるほか、Pro／Enterprise プランもある。
 
 - https://regex101.com/
 
@@ -142,6 +163,7 @@ JSON Web Token をデコードして検査（ヘッダ／ペイロード／署�
 ライブハイライトとコミュニティパターン付きで RegEx を学び、作り、テストできる。
 
 - https://regexr.com/
+- https://github.com/gskinner/regexr ![GitHub stars](https://img.shields.io/github/stars/gskinner/regexr?style=flat&label=%E2%AD%90)
 
 ## 数式・ダイアグラム
 
@@ -155,26 +177,43 @@ JSON Web Token をデコードして検査（ヘッダ／ペイロード／署�
 Mermaid ダイアグラム（フローチャート、シーケンス、ER など）をブラウザで編集・プレビュー。
 
 - https://mermaid.live/
+- https://github.com/mermaid-js/mermaid-live-editor ![GitHub stars](https://img.shields.io/github/stars/mermaid-js/mermaid-live-editor?style=flat&label=%E2%AD%90)
 
 ### Excalidraw
 手書き風のホワイトボード。ダイアグラムやスケッチ用で、共有リンクあり。
 
 - https://excalidraw.com/
+- https://github.com/excalidraw/excalidraw ![GitHub stars](https://img.shields.io/github/stars/excalidraw/excalidraw?style=flat&label=%E2%AD%90)
 
 ### draw.io (diagrams.net)
 無料のダイアグラムエディタ — フローチャート、UML、ER、ネットワーク図、BPMN など。Visio（.vsdx）、Gliffy、Lucidchart のファイルも読み込める。
 
 - https://app.diagrams.net/
+- https://github.com/jgraph/drawio ![GitHub stars](https://img.shields.io/github/stars/jgraph/drawio?style=flat&label=%E2%AD%90)
+
+### tldraw
+スケッチやダイアグラム向けの無限キャンバス型ホワイトボード。キャンバスアプリを作るための SDK としても提供。
+
+- https://www.tldraw.com/
+- https://github.com/tldraw/tldraw ![GitHub stars](https://img.shields.io/github/stars/tldraw/tldraw?style=flat&label=%E2%AD%90)
+
+### Typst
+マークアップベースのモダンな組版システム（LaTeX の代替）。typst.app で共同編集できる Web エディタを提供し、数式の多い文書に便利。
+
+- https://typst.app/
+- https://github.com/typst/typst ![GitHub stars](https://img.shields.io/github/stars/typst/typst?style=flat&label=%E2%AD%90)
 
 ### Carbon
 ドキュメントや SNS 向けに、ソースコードのきれいなスクリーンショットを作成。
 
 - https://carbon.now.sh/
+- https://github.com/carbon-app/carbon ![GitHub stars](https://img.shields.io/github/stars/carbon-app/carbon?style=flat&label=%E2%AD%90)
 
 ### ray.so
 Raycast 製のコードスクリーンショット生成ツール — テーマや背景を選び、PNG／SVG で書き出し。
 
 - https://ray.so/
+- https://github.com/raycast/ray-so ![GitHub stars](https://img.shields.io/github/stars/raycast/ray-so?style=flat&label=%E2%AD%90)
 
 ## 画像ツール
 
@@ -182,11 +221,13 @@ Raycast 製のコードスクリーンショット生成ツール — テーマ�
 画像圧縮 Web アプリ — ブラウザ内でローカルにリサイズ／エンコード（プライバシーに配慮）。
 
 - https://squoosh.app/
+- https://github.com/GoogleChromeLabs/squoosh ![GitHub stars](https://img.shields.io/github/stars/GoogleChromeLabs/squoosh?style=flat&label=%E2%AD%90)
 
 ### SVGOMG
 SVGO の Web GUI — ブラウザ上で SVG ファイルを最小化・整理。
 
 - https://jakearchibald.github.io/svgomg/
+- https://github.com/jakearchibald/svgomg ![GitHub stars](https://img.shields.io/github/stars/jakearchibald/svgomg?style=flat&label=%E2%AD%90)
 
 ### Photopea
 ブラウザで動く高機能オンライン写真エディタ（PSD 対応）。
@@ -196,7 +237,7 @@ SVGO の Web GUI — ブラウザ上で SVG ファイルを最小化・整理。
 ## TTS／音声
 
 ### 音読さん
-日本語 音声読み上げソフト — テキストを読み上げ、MP3 としてダウンロード可能。
+日本語 音声読み上げソフト — テキストを読み上げ、MP3 としてダウンロード可能。新しい AI 音声をベータ提供中（従来版も引き続き利用可）。
 
 - https://ondoku3.com/ja/
 
@@ -204,5 +245,5 @@ SVGO の Web GUI — ブラウザ上で SVG ファイルを最小化・整理。
 
 関連する awesome リスト:
 
-- https://github.com/styfle/awesome-online-ide
-- https://github.com/hql287/awesome-free-services
+- https://github.com/styfle/awesome-online-ide ![GitHub stars](https://img.shields.io/github/stars/styfle/awesome-online-ide?style=flat&label=%E2%AD%90)
+- https://github.com/hql287/awesome-free-services ![GitHub stars](https://img.shields.io/github/stars/hql287/awesome-free-services?style=flat&label=%E2%AD%90)
