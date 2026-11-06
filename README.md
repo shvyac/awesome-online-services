@@ -240,6 +240,14 @@ Full-featured online photo editor (PSD-friendly) that runs in the browser.
 
 - https://www.photopea.com/
 
+## CAD / STEP viewers
+
+### CADProps
+Browser STEP/STP viewer and CAD inspection (dimensions, section views). Viewing and measuring need no account; files are uploaded for server-side processing. Conversion and share links require sign-in.
+
+- https://www.cadprops.com/tools/step-viewer/
+- https://www.cadprops.com/
+
 ## TTS / voice
 
 ### 音読さん
